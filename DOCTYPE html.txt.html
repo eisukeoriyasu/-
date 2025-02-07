@@ -13,7 +13,7 @@ body {
 }
 
 .clock {
-  font-size: 100px;
+  font-size: 150px;
   color: #333;
 }
 </style>
@@ -29,8 +29,8 @@ function updateClock() {
   document.getElementById('clock').textContent = timeString;
 }
 
-updateClock(); // 初回実行
-setInterval(updateClock, 1000); // 1秒ごとに更新
+updateClock();
+setInterval(updateClock, 1000);
 </script>
 
 </body>
